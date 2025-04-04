@@ -18,3 +18,18 @@ section{
     background-color: grey;
     
 }
+
+/* Background Image Styles */
+
+.bg-image{
+    background-size: cover;
+    background-position: center;
+}
+
+.square{
+    padding: 100%;
+}
+
+.landscape{
+    padding: 60%;
+}

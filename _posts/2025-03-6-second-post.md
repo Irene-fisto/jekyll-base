@@ -3,6 +3,7 @@ layout: post
 title: My second post
 author: Nicolas Gaete
 categories: [travel, australia]
+featured_image: https://tinyurl.com/4b9j3bvn
 ---
 
 ## Adventures in Australia

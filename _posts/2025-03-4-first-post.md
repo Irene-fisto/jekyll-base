@@ -3,6 +3,7 @@ layout: post
 title: My first post
 author: Irene Massari
 categories: [travel, bali]
+featured_image: https://tinyurl.com/4b9j3bvn
 ---
 
 ## Adventures in Bali
