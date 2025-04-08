@@ -4,6 +4,36 @@
     box-sizing: border-box;
 }
 
+/* Header & Hamburger Menu */
+header {
+	padding: 1rem 5%;
+	position: relative;
+}
+
+nav a{
+    padding: 0.23rem 0.5rem;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid teal;
+}
+
+nav a:hover{
+    color: var(--featured text);
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+
+...
+/* Dropdown styles */
+.dropdown {
+	 /* position: relative;  */
+ 	display: inline-block;
+}
+
 header,
 footer,
 section{
@@ -33,3 +63,29 @@ section{
 .landscape{
     padding-bottom: 60%;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+   }
+   .dropdown-title {
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+   }
+   .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: -1rem;
+    padding: 0.5rem;
+    display: none;
+    background-color: white;
+    z-index: 2;
+    text-align: left;
+    min-width: 10rem;
+   }
+   .dropdown:hover .dropdown-content {
+    display: block;
+   }
+   .dropdown-content a {
+    display: block;
+   }
